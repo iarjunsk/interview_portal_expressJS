@@ -14,10 +14,13 @@ $ npm install
 $ node app
 ```
 
-#### NOTE:
+### NOTE:
 1. Read the instructions in the config.js
 
-#### Screens :
+### TODO:
+1. Add count-down timer in the candidate_test
+
+### Screens :
 ![Login ](/screens/login.png)
 
 ![Admin ](/screens/admin_dashboard.png)
