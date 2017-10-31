@@ -2,11 +2,11 @@
 
 ### Installation:
 
-1. Fork this GitHub repo
+1. Fork [this](https://github.com/arjunsk/interview_portal_expressJS) GitHub repo
 
-2. Edit config.js.
+2. Edit [config.js](/config.js).
 
-3. Import MongoDB data into the database using [database.txt ](/database.txt).
+3. Import MongoDB data into the database using [database.txt](/database.txt).
 
 4. Run the following commands
 ```sh
