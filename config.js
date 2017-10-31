@@ -29,7 +29,7 @@ config.MONGODB_URL = "mongodb://<db_user>:<db_user_pass>@ds<__>.mlab.com:<port>/
 config.EMAIL = {
     EMAILID  : "<email_sender_id>",
     PASSWORD : "<email_send_password>",
-	SERVICE  : "gmail" // Can update this if you are using godaddy etc
+    SERVICE  : "gmail" // Can update this if you are using godaddy etc
 }
 
 module.exports = config;
