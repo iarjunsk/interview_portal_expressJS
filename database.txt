@@ -1,0 +1,105 @@
+/*
+Collection : questionnaire 
+Procedure  : push individual questions into your mlab database
+*/
+
+
+/* Question 1 */
+{
+    "question": "Maximum size of a single S3 object",
+    "option1": "No Limit",
+    "option2": "5 TB",
+    "option3": "5 GB",
+    "option4": "100 GB",
+    "ans": "option1"
+}
+
+/* Question 2 */
+{
+    "question": "What is part of a database that holds only one type of information",
+    "option1": "Report",
+    "option2": "Field",
+    "option3": "Record",
+    "option4": "File",
+    "ans": "option2"
+}
+
+/* Question 3 */
+{
+    "question": "What does VVVF stand for",
+    "option1": "Variant Voltage Vile Frequency",
+    "option2": "Variable Velocity Variable Fun",
+    "option3": "Very Very Vicious Frequency",
+    "option4": "Variable Voltage Variable Frequency",
+    "ans": "option4"
+}
+
+/* Question 4 */
+{
+    "question": "What frequency range is the High Frequency band",
+    "option1": "100 kHz",
+    "option2": "1 GHz",
+    "option3": "30 to 300 MHz",
+    "option4": "3 to 30 MHz",
+    "ans": "option4"
+}
+
+/* Question 5 */
+{
+    "question": "Who developed Yahoo",
+    "option1": "Dennis Ritchie & Ken Thompson",
+    "option2": "David Filo & Jerry Yang",
+    "option3": "Vint Cerf & Robert Kahn",
+    "option4": "Steve Case & Jeff Bezos",
+    "ans": "option2"
+}
+
+/* Question 6 */
+{
+    "question": "What does the term PLC stand for",
+    "option1": "Programmable Lift Computer",
+    "option2": "Program List Control",
+    "option3": "Programmable Logic Controller",
+    "option4": "Piezo Lamp Connector",
+    "ans": "option3"
+}
+
+/* Question 7 */
+{
+    "question": " DB computer abbreviation usually means",
+    "option1": "Database",
+    "option2": "Double Byte",
+    "option3": "Data Block",
+    "option4": "Driver Boot",
+    "ans": "option1"
+}
+
+/* Question 8 */
+{
+    "question": ".INI extension refers usually to what kind of file",
+    "option1": "Image file",
+    "option2": "System file",
+    "option3": "Hypertext related file",
+    "option4": "Image Color Matching Profile file",
+    "ans": "option2"
+}
+
+/* Question 9 */
+{
+    "question": "Who created Pretty Good Privacy (PGP)",
+    "option1": "Phil Zimmermann",
+    "option2": "Tim Berners-Lee",
+    "option3": "Marc Andreessen",
+    "option4": "Ken Thompson",
+    "ans": "option1"
+}
+
+/* Question 10 */
+{
+    "question": " .TMP extension refers usually to what kind of file?",
+    "option1": "Compressed Archive file",
+    "option2": "Image file",
+    "option3": "Temporary file",
+    "option4": "Audio file",
+    "ans": "option3"
+}
