@@ -6,7 +6,9 @@
 
 2. Edit config.js
 
-3. Run the following commands
+3. Import MongoDB data into the database .
+
+4. Run the following commands
 ```sh
 $ npm install
 $ node app
@@ -15,4 +17,6 @@ $ node app
 #### NOTE:
 1. Read the instructions in the config.js
 
+#### Screens :
+![Login ](/screens/admin_dashboard.png)
 
