@@ -4,9 +4,9 @@
 
 1. Fork this GitHub repo
 
-2. Edit config.js
+2. Edit config.js.
 
-3. Import MongoDB data into the database .
+3. Import MongoDB data into the database using database.txt.
 
 4. Run the following commands
 ```sh
