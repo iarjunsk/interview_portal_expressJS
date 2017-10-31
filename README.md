@@ -24,5 +24,5 @@ $ node app
 
 ![Candidate Test ](/screens/candidate_test.png)
 
-![Score ](/screens/score.png)
+![Score ](/screens/candidate_score.png)
 
