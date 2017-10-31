@@ -18,5 +18,11 @@ $ node app
 1. Read the instructions in the config.js
 
 #### Screens :
-![Login ](/screens/admin_dashboard.png)
+![Login ](/screens/login.png)
+
+![Admin ](/screens/admin_dashboard.png)
+
+![Candidate Test ](/screens/candidate_test.png)
+
+![Score ](/screens/score.png)
 
