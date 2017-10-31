@@ -1,0 +1,52 @@
+<% include partials/header %>
+
+<!-- Bootstrap Partial -->
+<% include partials/nav %>
+<div class="container">
+<div class="page-header"></div>
+
+
+<form class="input-group" method="POST" action="" role="form" data-toggle="validator">
+    
+    <input type="email" class="form-control" name="candidate_email" 
+    placeholder=" Candidate's Email " required>
+    <div class="help-block with-errors"></div>
+
+    <span class="input-group-btn">
+        <button type="submit" class="btn btn-default" >
+            <i class="fa fa-envelope-o" aria-hidden="true"></i> &nbsp; Invite
+        </button>
+    </span>
+</form>
+
+
+<ul class="list-group">
+
+    <% candidates.forEach(function(candidate){  %>
+    <li class="list-group-item">
+
+        <i class="fa fa-user" aria-hidden="true"></i> &nbsp;  <%= candidate.email %>
+
+        <% if (candidate.test_taken == true) { %>
+            &ensp;<span class="label label-success"> Exam  </span>
+        <% }else{ %>
+            &ensp;<span class="label label-danger"> Exam  </span>
+        <% } %>
+          
+
+        <% if (candidate.link_visited == true) { %>
+            &ensp;<span class="label label-success"> Viewed  </span>
+        <% }else{ %>
+            &ensp;<span class="label label-danger"> Viewed  </span>
+        <% } %>
+        
+        <span class="badge"><%= candidate.score %> / 5</span>
+
+    </li>
+    <% }) %>
+</ul>
+
+
+<!-- Bootstrap Partial -->
+</div>      
+<% include partials/footer %>  

@@ -1,0 +1,49 @@
+<% include partials/header %>
+
+<!-- Bootstrap Partial -->
+<% include partials/nav %>
+<div class="container">
+<div class="page-header"></div>
+
+<form  method="POST" action="">
+
+            
+    <% var index = 1; questions.forEach(function(item){  %>
+
+            <h5 >Q <%= index %>. <%= item.question %>?</h5>
+
+            <input name='<%= item._id %>' type="radio" id='<%= item._id + "_option1" %>' value="option1" /> 
+            <label for='<%= item._id + "_option1" %>'><%= item.option1 %></label>
+            <br>
+        
+            <input name='<%= item._id %>' type="radio" id='<%= item._id + "_option2" %>' value="option2"/>
+            <label for='<%= item._id + "_option2" %>'><%= item.option2 %></label>
+            <br>
+
+            <input name='<%= item._id %>' type="radio" id='<%= item._id + "_option3" %>' value="option3" />
+            <label for='<%= item._id + "_option3" %>'><%= item.option3 %></label>
+            <br>
+
+            <input name='<%= item._id %>' type="radio" id='<%= item._id + "_option4" %>' value="option4" />
+            <label for='<%= item._id + "_option4" %>'><%= item.option4 %></label>
+            <br>
+
+    <% index++ }) %>
+
+   
+    <!-- Submit -->
+    <br>
+    <button type="submit" class="btn btn-success">
+        <i class="fa fa-check" aria-hidden="true"></i> Submit
+    </button>
+  
+                   
+</form>
+
+
+
+      
+
+<!-- Bootstrap Partial -->
+</div>      
+<% include partials/footer %>  
