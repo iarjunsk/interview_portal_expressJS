@@ -6,7 +6,7 @@
 
 2. Edit config.js.
 
-3. Import MongoDB data into the database using database.txt.
+3. Import MongoDB data into the database using [database.txt ](/database.txt).
 
 4. Run the following commands
 ```sh
