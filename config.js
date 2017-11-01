@@ -26,6 +26,7 @@ config.AUTH0 = {
 config.MONGODB_URL = "mongodb://<db_user>:<db_user_pass>@ds<__>.mlab.com:<port>/<database>";
 
 // Sending email for candidate invitation link
+// NOTE : Incase you are using gmail, activate https://myaccount.google.com/u/1/lesssecureapps
 config.EMAIL = {
     EMAILID  : "<email_sender_id>",
     PASSWORD : "<email_send_password>",
