@@ -15,8 +15,8 @@ Allowed Logout URLs   : http://localhost:3000/logout
 */
 config.AUTH0 = {
     domain : "<auth0_client_domain>",
-    client_id : "<auth0_client_domain>",
-    client_secret : "<auth0_client_domain>",
+    client_id : "<auth0_client_id>",
+    client_secret : "<auth0_client_secret>",
     callback_url  : config.HOSTING_URL+"/google/auth/callback"
 };
 
