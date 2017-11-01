@@ -1,7 +1,13 @@
 /*
-Collection : questionnaire 
-Procedure  : push individual questions into your mlab database
+Collection 1: candidates 
+Procedure   : just create the collection 
 */
+
+/*
+Collection 2: questionnaire 
+Procedure   : push individual questions into your mlab database
+*/
+
 
 
 /* Question 1 */
