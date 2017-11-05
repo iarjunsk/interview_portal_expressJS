@@ -113,7 +113,7 @@ app.get('/logout', (req, res) => {
 
 app.get('/', (req, res) => { res.redirect('/login'); }); 
 
-app.get('/:any', (req, res) => { res.redirect('/404'); }); 
+app.get('/*', (req, res) => { res.redirect('/404'); }); 
 
 //#######################################################################
 
