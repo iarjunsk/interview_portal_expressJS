@@ -8,7 +8,7 @@ exports.get_callback = function(req, res) {
     if( !req.isAuthenticated()) { res.redirect('/login'); return false; }
 
     db.candidates.findOne({
-        email:  req.session.passport.user.nickname+"@gmail.com"
+        email:  req.session.passport.user.emails[0]
     }, function(err, doc) {
         if(err){
 
