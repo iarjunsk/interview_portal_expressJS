@@ -16,7 +16,7 @@ exports.get_callback = function(req, res,callback) {
 
     //Check if the user has already taken test or not
     db.candidates.findOne({
-        email: req.session.passport.user.nickname+"@gmail.com"
+        email: req.session.passport.user.emails[0]
     }, function(err, doc) {
         if(err){
 
@@ -51,7 +51,7 @@ exports.get_callback = function(req, res,callback) {
                 
                 // Update candidate's test taken status
                 db.candidates.findAndModify({
-                    query: { email:  req.session.passport.user.nickname+"@gmail.com" },
+                    query: { email: req.session.passport.user.emails[0] },
                     update: { $set: { test_taken: true } },
                 }, function (err, doc, lastErrorObject) {
                    
@@ -82,7 +82,7 @@ exports.post_callback = function(req, res) {
 
     //update session score to the user
     db.candidates.findAndModify({
-        query: { email:  req.session.passport.user.nickname+"@gmail.com" },
+        query: { email:  req.session.passport.user.emails[0] },
         update: { $set: { score: session_score } },
     }, function (err, doc, lastErrorObject) {
         res.redirect('/score');
