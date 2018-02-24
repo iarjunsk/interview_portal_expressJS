@@ -34,7 +34,7 @@ passport.use(strategy);
 passport.serializeUser(function(user, done) { done(null, user); });
 passport.deserializeUser(function(user, done) { done(null, user); });
 
-//Middle wares
+//Middlewares
 app.use(cookieParser());
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
